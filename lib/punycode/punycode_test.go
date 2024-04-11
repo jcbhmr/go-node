@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jcbhmr/go-node/punycode"
+	"github.com/jcbhmr/go-node/polyfill/punycode"
 )
 
 func try1[A any](a A, err error) A {
